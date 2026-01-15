@@ -5,5 +5,5 @@ import com.mekong.booking.booking_api.Dtos.Request.RegisterRequest;
 import com.mekong.booking.booking_api.Dtos.Response.RegisterResponse;
 
 public class AuthService {
-    
+         RegisterResponse register(RegisterRequest request);    
 }

@@ -83,11 +83,11 @@
     </dependency>
 
     <!-- For Jakarta Bean Validation EL support -->
-    <dependency>
-        <groupId>org.glassfish</groupId>
-        <artifactId>jakarta.el</artifactId>
-        <version>5.0.0</version>
-    </dependency>
+     <dependency>
+    <groupId>org.glassfish</groupId>
+         <artifactId>jakarta.el</artifactId>
+         <version>3.0.4</version>
+    </dependency> 
 	</dependencies>
 
 	<build>
