@@ -1,5 +1,7 @@
 package com.mekong.booking.booking_api.Repository;
 
-public class UserRoleRepository {
-    
-}
+import com.mekong.booking.booking_api.Entity.UserRole;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRoleRepository extends JpaRepository<UserRole, Long> {}
+
